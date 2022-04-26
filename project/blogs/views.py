@@ -1,0 +1,6 @@
+from django.http import HttpResponse
+
+
+# Create your views here.
+def blogs(request):
+    return HttpResponse("hello it is a blog")
